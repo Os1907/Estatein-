@@ -6,7 +6,7 @@ export default function MainTaps() {
 
   return (
     <>
-    <div role="tablist" className="lg:inline-flex flex justify-center  lg:w-auto lg:ml-20 pl-2  w-96 mx-auto bg-[#1a1a1a] rounded-lg  px-4 py-3 mb-4 ">
+    <div role="tablist" className="lg:inline-flex flex justify-center  lg:w-auto lg:ml-20 mx-16 md:w-96  bg-[#1a1a1a] rounded-lg  px-4 py-3 mb-4 ">
   <Link 
   onClick={()=>{
     setActive(1)

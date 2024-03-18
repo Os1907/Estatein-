@@ -135,7 +135,7 @@ export default function MainFrom() {
             I agree with <span className="underline cursor-pointer"> Terms of Use</span>  and <span  className="underline cursor-pointer">Privacy Policy</span> 
             </label>
           </div>
-        <p className="mr-0 lg:mr-4 py-4 lg:px-4 px-2 text-center  my-1 bg-[#703BF7] text-white w-[50%]   rounded-lg  lg:w-auto">
+        <p className="mr-0 lg:mr-4 py-4 lg:px-4 px-2 text-center  my-1 bg-[#703BF7] text-white w-[60%]   rounded-lg  lg:w-auto">
             Send your Message
             </p>
         </div>

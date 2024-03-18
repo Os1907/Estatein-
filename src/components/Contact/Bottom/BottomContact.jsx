@@ -37,10 +37,10 @@ export default function BottomContact() {
                 <>
                   <div key={item.id} className="lg:col-span-3 col-span-6 text-center bg-[#1a1a1a] flex items-center border border-[#262626] flex-col justify-center m-2 p-5 rounded-xl relative">
                     <img src={item.img} alt="" className="size-16" />
-                    <div className="flex ">
+                    <div className="flex flex-wrap justify-center">
                     <p className="text-white font-medium mt-2 text-sm lg:text-base cursor-pointer hover:underline ">{item.p}</p>
                     {
-                        index > 2 ? <div className="flex">
+                        index > 2 ? <div className="flex ">
                             <p className="text-white font-medium mt-2 text-sm lg:text-base cursor-pointer hover:underline mx-5">{item.p2}</p>
                             <p className="text-white font-medium mt-2 text-sm lg:text-base cursor-pointer hover:underline ">{item.p3}</p> 
                         </div>
