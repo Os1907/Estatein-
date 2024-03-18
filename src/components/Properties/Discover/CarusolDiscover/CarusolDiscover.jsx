@@ -116,7 +116,7 @@ export default function CarusolDiscover() {
                 return <>
                   <div key={index} className=" z-20   ">
               <div className="mainColor shadow border border-[#262626] rounded-xl flex flex-col items-center  sm:mx-14  md:mx-5 p-5  ">
-              <Link to='/product'>  <img src={item.image} alt="" className="sm:w-96 sm:h-72 w-80 h-44  m-5 border border-[#262626] rounded-xl" /> </Link>
+              <Link to='/product'>  <img src={item.image} alt="" className="sm:w-96 sm:h-72 w-80 h-44  my-4 border border-[#262626] rounded-xl" /> </Link>
                   <div className="titles-Card">
                   <div className="my-3 flex lg:justify-start justify-center w-full flex-wrap gap-y-1   ">
                       <div className="flex border border-[#262626] rounded-3xl items-center px-5 sm:px-3 mx-1 py-1 bg-[#1a1a1a]">
@@ -133,7 +133,7 @@ export default function CarusolDiscover() {
                       <div className="w-full flex justify-between">
                           <div>
                               <p className="text-[#9999] text-[12px]   sm:text-sm lg:text-base ">price</p>
-                              <p className="text-white text-[12px]   sm:text-sm lg:text-base font-medium">{item.price}</p>
+                              <p className="text-white text-sm lg:text-base font-medium">{item.price}</p>
                           </div>
                           <Link to='/product' className=" py-3 px-4 text-white  my-1 bg-[#703BF7]  text-[10px]  lg:rounded-xl rounded-lg sm:text-sm lg:text-base ">
                           View Property Details

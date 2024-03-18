@@ -121,8 +121,8 @@ export default function CarusolProduct() {
                     CardInfo.map((item ,index)=>{
                         return <>
                         <div key={index} className=" z-20   ">
-                    <div className="mainColor shadow border   border-[#262626] rounded-xl flex flex-col items-center  sm:mx-10  md:mx-5 p-5  ">
-                      <Link to='/product'>  <img src={item.image} alt="" className="sm:w-96  sm:h-72 w-80 h-44  m-5 border border-[#262626] rounded-xl" /> </Link>
+                    <div className="mainColor shadow border   border-[#262626] rounded-xl flex flex-col items-center  sm:mx-1  md:mx-5 p-5  ">
+                      <Link to='/product'>  <img src={item.image} alt="" className="sm:w-96  sm:h-72 w-80 h-44   my-4 border border-[#262626] rounded-xl" /> </Link>
                         <div className="titles-Card">
                            <h3 className="text-white lg:text-lg text-base text-left font-semibold">
                            {item.Title}
@@ -132,23 +132,23 @@ export default function CarusolProduct() {
                         </p>
                         </div>
                         <div className="my-3 flex lg:justify-start justify-center w-full flex-wrap gap-y-1   ">
-                            <div className="flex border border-[#262626] rounded-3xl items-center px-5 sm:px-3 mx-1 py-1 bg-[#1a1a1a]">
+                            <div className="flex border border-[#262626] rounded-3xl items-center px-5 sm:px-3 mx-1 py-1 bg-[#1a1a1a] flex-wrap">
                                 <img src={bedroom} alt="" className="size-3" />
-                                <p className="xl:text-sm text-[7px] sm:text-[9px] sm:ml-2 ml-1 text-white"> {item.Bedroom}-Bedroom </p>
+                                <p className="xl:text-sm text-[12px]  sm:ml-2 ml-1 text-white"> {item.Bedroom}-Bedroom </p>
                             </div>
                             <div className="flex border border-[#262626] rounded-3xl items-center px-5 sm:px-3 mx-1 py-1 bg-[#1a1a1a]">
                                 <img src={bathroom} alt="" className="size-3" />
-                                <p className="lg:text-sm text-[7px] sm:text-[9px] sm:ml-2 ml-1 text-white"> {item.Bathroom}-bathroom </p>
+                                <p className="lg:text-sm text-[12px] sm:ml-2 ml-1 text-white"> {item.Bathroom}-bathroom </p>
                             </div>
                             <div className="flex border border-[#262626] rounded-3xl items-center px-5 sm:px-3 mx-1 py-1 bg-[#1a1a1a]">
                                 <img src={villa} alt="" className="size-3" />
-                                <p className="lg:text-sm text-[7px] sm:text-[9px] sm:ml-2 ml-1 text-white"> {item.type} </p>
+                                <p className="lg:text-sm text-[12px] sm:ml-2 ml-1 text-white"> {item.type} </p>
                             </div>
                         </div>
                             <div className="w-full flex justify-between">
                                 <div>
                                     <p className="text-[#9999] text-[12px]   sm:text-sm ">price</p>
-                                    <p className="text-white text-[12px]   sm:text-sm font-medium">$550,000</p>
+                                    <p className="text-white    text-sm font-medium">$550,000</p>
                                 </div>
                                 <Link to='/product' className=" py-3 px-4 text-white  my-1 bg-[#703BF7]  text-[10px]  lg:rounded-xl rounded-lg sm:text-sm lg:text-base ">
                                 View Property Details

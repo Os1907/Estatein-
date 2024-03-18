@@ -19,9 +19,9 @@ export default function IntialCost() {
                  </div>
                  <div className="my-5 lg:col-span-6  col-span-12  pb-5"> 
                 <h5 className="text-[#999]  my-2">Additional Fees</h5>
-                <div className="flex  items-center ">
+                <div className="flex  items-center flex-wrap">
                     <p className="text-white text-xl font-semibold">$ 29,700</p>
-                    <span className=" ml-3 text-[#999] bg-[#1a1a1a] border  border-[#242424] py-2 px-4 text-[12px] lg:text-[9px] xl:text-sm rounded-full">Property transfer tax, legal fees, inspection, insurance</span>
+                    <span className=" lg:ml-3 text-[#999] bg-[#1a1a1a] border  border-[#242424] py-2 px-4 text-[12px] lg:text-[9px] xl:text-sm rounded-full">Property transfer tax, legal fees, inspection, insurance</span>
                 </div>
                  </div>
             <div>
