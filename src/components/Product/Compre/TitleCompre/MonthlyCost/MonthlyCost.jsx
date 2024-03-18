@@ -12,16 +12,16 @@ export default function MonthlyCost() {
         </div>
         <div className="my-5 border-b border-[#242424] pb-5"> 
                 <h5 className="text-[#999]  my-2">Property Taxes</h5>
-                <div className="flex  items-center ">
+                <div className="flex  items-center flex-wrap gap-y-3">
                     <p className="text-white text-xl font-semibold">$ 1.250</p>
-                    <span className=" ml-3 text-[#999] bg-[#1a1a1a] border  border-[#242424] py-2 px-4 text-[12px] lg:text-[9px] xl:text-sm rounded-full"> Approximate monthly property tax based on the sale price and local rates</span>
+                    <span className=" lg:ml-3 text-[#999] bg-[#1a1a1a] border  border-[#242424] py-2 px-4 text-[12px] lg:text-[9px] xl:text-sm rounded-full"> Approximate monthly property tax based on the sale price and local rates</span>
                 </div>
                  </div>
         <div className="my-5  "> 
                 <h5 className="text-[#999]  my-2">{"Homeowners"} Association Fee</h5>
-                <div className="flex  items-center ">
-                    <p className="text-white text-xl font-semibold">$ 300</p>
-                    <span className=" ml-3 text-[#999] bg-[#1a1a1a] border  border-[#242424] py-2 px-4 text-[12px] lg:text-[9px] xl:text-sm rounded-full"> Monthly fee for common area maintenance and security</span>
+                <div className="flex  items-center flex-wrap gap-y-3 ">
+                    <p className="text-white text-xl font-semibold mr-5 lg:mr-0">$ 300</p>
+                    <span className=" lg:ml-3 text-[#999] bg-[#1a1a1a] border  border-[#242424] py-2 px-4 text-[12px] lg:text-[9px] xl:text-sm rounded-full"> Monthly fee for common area maintenance and security</span>
                 </div>
                  </div>
     </div>

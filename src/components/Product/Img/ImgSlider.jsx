@@ -45,7 +45,6 @@ export default function ImgSlider() {
       
     ];
     const [view, setView] = useState(main)
-    const [viewTwo, setViewTwo] = useState(true)
 
   return (
     <>
@@ -56,14 +55,9 @@ export default function ImgSlider() {
                     return <>
                     <div  onClick={()=>{
                         setView(`${i.image}`)
-                        setViewTwo (false)
-
-                        if (index == 0 ) {
-                        setView(main)
-                        }
                     }}
                      key={index} className='cursor-pointer'>
-            <img src={i.image} alt="" className={  index > 4 ? 'h-24 w-28 hidden xl:inline ' : 'h-16 w-24 sm:w-44 sm:h-24 px-1  '} />
+            <img src={i.image} alt="" className={  index > 4 ? 'h-20 w-28 hidden xl:inline ' : 'h-12 w-24 sm:w-44 sm:h-24 px-1  '} />
         </div>
                     </>
                 })
@@ -72,10 +66,8 @@ export default function ImgSlider() {
         </div>
 
         <div className='w-full flex justify-center gap-x-5 p-2 -order-1 lg:order-1'>
-            <img src={view} alt="" className={viewTwo?  'size-[50%] ' :"lg:size-[60%] size1 rounded-3xl scale-in-ver-top"} />
-            {
-                viewTwo? <img src={main2} alt="" className='size-[50%] ' /> : ""
-            }
+            <img src={view} alt="" className="lg:size-[60%] size1 rounded-3xl scale-in-ver-top" />
+           
             
         </div>
 

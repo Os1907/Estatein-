@@ -28,9 +28,9 @@ export default function Monthly() {
         <div className="grid grid-cols-12 gap-4 ">
             <div className="my-5 lg:col-span-6  col-span-12 lg:border-r border-[#242424] border-b lg:border-b-0 pb-5"> 
                 <h5 className="text-[#999]  my-2">Mortgage Payment</h5>
-                <div className="flex  items-start justify-start flex-col md:flex-row lg:flex-col xl:flex-row ">
+                <div className="flex  items-start justify-start flex-col md:flex-row lg:flex-col xl:flex-row  ">
                     <p className="text-white text-base font-semibold ">Varies based on terms and interest rate If applicable</p>
-                    <span className=" ml-3 text-[#999]  bg-[#1a1a1a] border block  border-[#242424] py-2 px-4  text-[9px] lg:text-[12px] xl:text-sm rounded-full"> If applicable </span>
+                    <span className=" ml-3 text-[#999]  bg- [#1a1a1a] border block  border-[#242424] py-2 px-4  text-[12px]  lg:text-[12px] xl:text-sm rounded-full"> If applicable </span>
                 </div>
                  </div>
                  <div className="my-5 lg:col-span-6  col-span-12  pb-2"> 

@@ -42,21 +42,20 @@ export default function HamburgerMenu() {
         hidePage()
       }} 
       className='mr-3 my-4 focus:bg-[#141414] focus:text-white  hover:bg-[#141414] hover:border hover:border-[#262626] rounded-lg'><Link to='service'>Services</Link></li>
-    </ul>
+            </ul>
     <div className=' flex items-end mt-28 '>
 
     <img src={icon} alt="" className='w-10 ' />
     </div>
 
-    </div> : <div className={display ? 'hidden':'bg-[#141414] w-full h-screen absolute top-0 left-0 z-40 flex justify-center items-center slide-out-right flex-col'}>
-            <ul className="menu menu-vertical px-1 text-xl text-center  mt-24">
+    </div> : <div className={display ? 'hidden':'bg-[#141414]   w-full h-screen absolute top-0 left-0 z-40 flex justify-center items-center slide-out-right flex-col'}>
+            <ul className={ display ?  'hidden': "menu menu-vertical px-1 text-xl text-center  mt-24"}>
       <li className='mr-3 my-4 focus:bg-[#141414] focus:text-white  hover:bg-[#141414] hover:border hover:border-[#262626] rounded-lg'><Link to='home'>Home</Link></li>
       <li className='mr-3 my-4 focus:bg-[#141414] focus:text-white  hover:bg-[#141414] hover:border hover:border-[#262626] rounded-lg'> <Link to='about'>About Us</Link></li>
       <li className='mr-3 my-4 focus:bg-[#141414] focus:text-white  hover:bg-[#141414] hover:border hover:border-[#262626] rounded-lg'><Link to='properties'>Properties</Link></li>
       <li className='mr-3 my-4 focus:bg-[#141414] focus:text-white  hover:bg-[#141414] hover:border hover:border-[#262626] rounded-lg'><Link to='service'>Services</Link></li>
     </ul>
     <div className=' flex items-end mt-28 '>
-
     <img src={icon} alt="" className='w-10 ' />
     </div>
 

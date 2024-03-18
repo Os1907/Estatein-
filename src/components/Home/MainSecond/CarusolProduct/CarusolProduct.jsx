@@ -113,7 +113,7 @@ export default function CarusolProduct() {
     ]
        
         return (
-          <div className="slider-container overflow-hidden relative    lg:mx-16 mx-4 pb-10 border-b border-[#262626] ">
+          <div className="slider-container overflow-hidden relative   lg:mx-16 mx-4 pb-10 border-b border-[#262626] ">
             <img src={pettern} alt="" className="absolute  My-OpacitY" />
             <Slider {...settings} >
 
@@ -121,8 +121,8 @@ export default function CarusolProduct() {
                     CardInfo.map((item ,index)=>{
                         return <>
                         <div key={index} className=" z-20   ">
-                    <div className="mainColor shadow border border-[#262626] rounded-xl flex flex-col items-center  sm:mx-14  md:mx-5 p-5  ">
-                      <Link to='/product'>  <img src={item.image} alt="" className="sm:w-96 sm:h-72 w-80 h-44  m-5 border border-[#262626] rounded-xl" /> </Link>
+                    <div className="mainColor shadow border   border-[#262626] rounded-xl flex flex-col items-center  sm:mx-10  md:mx-5 p-5  ">
+                      <Link to='/product'>  <img src={item.image} alt="" className="sm:w-96  sm:h-72 w-80 h-44  m-5 border border-[#262626] rounded-xl" /> </Link>
                         <div className="titles-Card">
                            <h3 className="text-white lg:text-lg text-base text-left font-semibold">
                            {item.Title}
