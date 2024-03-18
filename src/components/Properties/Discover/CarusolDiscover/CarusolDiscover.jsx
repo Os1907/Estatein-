@@ -120,7 +120,7 @@ export default function CarusolDiscover() {
                   <div className="titles-Card">
                   <div className="my-3 flex lg:justify-start justify-center w-full flex-wrap gap-y-1   ">
                       <div className="flex border border-[#262626] rounded-3xl items-center px-5 sm:px-3 mx-1 py-1 bg-[#1a1a1a]">
-                          <p className="m  text-sm sm:ml-2 ml-1 text-white line-clamp-1"> {item.BuildDisc}-Bedroom </p>
+                          <p className=" text-[12px] sm:ml-2 ml-1 text-white line-clamp-1"> {item.BuildDisc}-Bedroom </p>
                       </div>
                   </div>
                      <h3 className="text-white lg:text-lg text-base text-left font-semibold">
