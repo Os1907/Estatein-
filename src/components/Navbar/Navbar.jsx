@@ -26,7 +26,7 @@ export default function Navbar() {
   return (
     <>
     <Banner/>
-<div ref={scrollRef}  className="navbar mainColor  text-white  my-trans  ">
+<div ref={scrollRef}  className="navbar mainColor  text-white  my-trans   ">
   <div className="navbar-start w-full lg:w-[50%] justify-between ">
     <img src={logo} alt="" className='md:w-28 lg:ml-16 ml-5 w-28'/>
     <HamburgerMenu/>

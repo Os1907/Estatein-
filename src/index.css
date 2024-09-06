@@ -104,9 +104,15 @@ body::-webkit-scrollbar-thumb {
 }
 @-webkit-keyframes slide-out-right {
   0% {
-    -webkit-transform: translateX(0);
+            -webkit-transform: translateX(0);
             transform: translateX(0);
-    opacity: 1;
+            opacity: 1;
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+}
+  50%{
+    width: 50%;
   }
   99.5%{
     width: 0;
@@ -123,6 +129,9 @@ body::-webkit-scrollbar-thumb {
     -webkit-transform: translateX(0);
             transform: translateX(0);
     opacity: 1;
+  }
+  50%{
+    width: 50%;
   }
  
   100% {
